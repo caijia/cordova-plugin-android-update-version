@@ -2,6 +2,7 @@ package com.caijia.updateversiondialog;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.text.Html;
@@ -10,7 +11,7 @@ import android.view.View;
 import com.caijia.updateversion.AlertDialog;
 import com.caijia.updateversion.UpdateVersionDialog;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
