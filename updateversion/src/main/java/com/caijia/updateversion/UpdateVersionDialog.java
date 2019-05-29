@@ -27,7 +27,7 @@ public class UpdateVersionDialog extends AlertDialog {
     private int previousPercent;
     private FileDownloader fileDownloader;
 
-    protected UpdateVersionDialog(Context context, String downloadUrl) {
+    public UpdateVersionDialog(Context context, String downloadUrl) {
         super(context, R.style.Dialog_update_version);
         this.downloadUrl = downloadUrl;
     }
